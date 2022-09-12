@@ -1,10 +1,8 @@
 
 import { useState, useTransition } from 'react';
 import './Appa.css';
-import About from './coponents/About';
 import Alert from './coponents/Alert';
 import Navbar from './coponents/Navbar';
-import Home from './coponents/Home';
 import TextForm from './coponents/TextForm';
 
 
@@ -54,8 +52,6 @@ function App() {
         
 
           <TextForm showAlert={showAlert} boxName="Enter your text" mode={mode}/>
-          <About />
-         <Home/>
         
     </div>
     
